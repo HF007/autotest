@@ -1,0 +1,26 @@
+[
+  {
+    "description": "这是一个post请求",
+    "request": {
+      "uri": "/postDemo",
+      "method": "post"
+    },
+    "response": {
+      "text": "这是我的第一个mock post请求"
+    }
+  },
+  {
+    "description": "这是一个带参数的post请求",
+    "request": {
+      "uri": "/postWithPaream",
+      "method": "post",
+      "forms": {
+        "name": "ou",
+        "age": "20"
+      }
+    },
+    "response": {
+      "text": "带着参数胡来了"
+    }
+  }
+]
